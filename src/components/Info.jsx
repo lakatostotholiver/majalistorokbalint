@@ -6,12 +6,6 @@ const infoItems = [
     highlight: false,
   },
   {
-    icon: '🚌',
-    title: 'Tömegközlekedés',
-    desc: 'Törökbálint vasútállomásról gyalog 10 perc. Buszok: 40-es, 140-es, 240-es – Törökbálint, Városháza megálló.',
-    highlight: false,
-  },
-  {
     icon: '♿',
     title: 'Akadálymentesség',
     desc: 'A rendezvényhelyszín akadálymentesen megközelíthető, kerekesszékkel is látogatható.',
