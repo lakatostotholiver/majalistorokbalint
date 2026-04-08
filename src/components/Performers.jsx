@@ -6,7 +6,7 @@ const performers = [
     image: '/images/new-level-empire.jpg',
   },
   {
-    name: 'Bruno X',
+    name: 'Bruno x Spacc',
     time: '20:00 – 21:00',
     type: 'Koncert',
     image: '/images/bruno-spacc.jpg',

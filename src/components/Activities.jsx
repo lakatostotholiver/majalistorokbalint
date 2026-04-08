@@ -1,8 +1,8 @@
 const activities = [
   { icon: '🎡', name: 'Vidámpark', desc: 'Láncos körhinta, Eurojumping, Megacsúszda, Spongyabob ugrálóvár' },
-  { icon: '🚂', name: 'Kisvonat', desc: 'Kötöttpályás kisvonat a helyszínen és kirándulás a Nádas-tó körül' },
+  { icon: '🚂', name: 'Kisvonat', desc: '2 kisvonat – kötöttpályás és gumikerekű! Vonatozz a Nádas-tó körül a kicsikkel.' },
   { icon: '🥽', name: 'VR Élmény', desc: 'Élményszimulátor és VR szemüveggel – próbáld ki a jövő technológiáját!' },
-  { icon: '🫧', name: 'Óriásbuborékshow', desc: 'Mesés buborékshow a kicsiknek és nagyoknak' },
+  { icon: '🫧', name: 'Óriásbuborékshow', desc: 'Mesés buborékshow a kicsiknek és nagyoknak – 11:00–12:00 és 13:00–14:00 között' },
   { icon: '🎨', name: 'Arcfestés', desc: 'Arcfestés, csillámos tetoválás és hajfonás' },
   { icon: '⚽', name: 'Ügyességi játékok', desc: 'Biliárdfoci, vetődős focikapu, 4 az 1-ben ügyességi játékok' },
   { icon: '👨‍👩‍👧‍👦', name: 'Családi programok', desc: 'Közösségi programok az egész családnak egész nap' },

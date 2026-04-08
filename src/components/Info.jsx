@@ -23,6 +23,12 @@ const infoItems = [
     desc: 'Kisgyermekes szülők számára pelenkázó helyiség áll rendelkezésre a helyszínen.',
     highlight: false,
   },
+  {
+    icon: '🚲',
+    title: 'Kerékpártároló',
+    desc: 'Kerékpártároló állványok a Nyár utcai parkolóban – gyere bringával!',
+    highlight: false,
+  },
 ]
 
 export default function Info() {
@@ -49,9 +55,16 @@ export default function Info() {
               <p>
                 <strong>2. Géza fejedelem útja</strong> (korlátozott számú parkolóhely, dedikált mozgássérült parkolóhelyek):
               </p>
+              <p style={{ marginTop: '8px', marginBottom: '4px' }}><strong>Megközelítés:</strong></p>
               <ul className="parking-details-list">
-                <li><strong>Behajtás:</strong> A Csokonai utca felől a Kossuth közön, illetve a Szegfű utcán keresztül.</li>
-                <li><strong>Kihajtás:</strong> A Bajcsy-Zsilinszky út irányába.</li>
+                <li>Bajcsy-Zsilinszky utca – Szegfű utca felől</li>
+                <li>Bajcsy-Zsilinszky utca – Szegfű utca – Rózsa köz felől</li>
+                <li>Bajcsy-Zsilinszky utca – Diófa utca – Szegfű utca vagy Rózsa köz felől</li>
+                <li>Nyár u. – Csokonai Vitéz Mihály utca – Kossuth köz felől</li>
+                <li>Nyár u. – Csokonai Vitéz Mihály utca – Rózsa köz felől</li>
+                <li>Nyár u. – Csokonai Vitéz Mihály utca – Szegfű utca felől</li>
+              </ul>
+              <ul className="parking-details-list" style={{ marginTop: '12px' }}>
                 <li><strong>Parkolás módja:</strong> Kérjük, hogy a Nádas-tó felőli oldalon <strong>halszálkás alakzatban</strong> parkoljanak, így több gépjármű tud megállni ezen az útszakaszon.</li>
                 <li><strong>Tilos parkolni:</strong> A Géza fejedelem útja lakóházak felőli oldalán!</li>
               </ul>
@@ -71,6 +84,41 @@ export default function Info() {
                   Kérjük, <strong>ne parkolj a lakóutcákban</strong>, mivel ez a helyi lakóknak kellemetlenséget okoz!
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Buszközlekedés – terelőútvonal */}
+        <div className="bus-block animate-on-scroll">
+          <div className="bus-block-header">
+            <span className="bus-icon">🚌</span>
+            <h3>Buszközlekedés – terelőútvonal a rendezvény ideje alatt</h3>
+          </div>
+          <div className="bus-block-body">
+            <p className="bus-intro">
+              A Törökbálinti Majális megrendezése miatt a <strong>Géza fejedelem utca</strong> Bajcsy-Zsilinszky utca és
+              Szabadság tér (körforgalom) közötti szakasza <strong>2026. április 30. (csütörtök) 09:00</strong> és{' '}
+              <strong>2026. május 2. (szombat) 04:00</strong> között lezárásra kerül.
+            </p>
+            <p className="bus-intro">
+              A forgalomkorlátozás időtartama alatt az alábbi autóbuszvonalak érintett járatai <strong>mindkét irányban</strong> a{' '}
+              <strong>Munkácsy Mihály utca – Szent István utca – Baross Gábor utca – Bajcsy-Zsilinszky utca</strong>{' '}
+              terelőútvonalon közlekednek:
+            </p>
+            <ul className="bus-lines-list">
+              <li><strong>88</strong> – Kelenföld vasútállomás M ↔ Budatétény vasútállomás (Campona)</li>
+              <li><strong>88A</strong> – Kelenföld vasútállomás M ↔ Márta utca</li>
+              <li><strong>172</strong> – Kelenföld vasútállomás M ↔ Törökbálint, Nyár utca (körjárat)</li>
+              <li><strong>173</strong> – Kelenföld vasútállomás M ↔ Törökbálint, Harangláb (körjárat)</li>
+              <li><strong>972</strong> – Móricz Zsigmond körtér M ↔ Törökbálint, Nyár utca</li>
+              <li><strong>9728</strong> – Móricz Zsigmond körtér M ↔ Törökbálint, Nyár utca</li>
+            </ul>
+            <div className="bus-notice">
+              <span className="bus-notice-icon">ℹ️</span>
+              <p>
+                Kérjük az utasokat, hogy a megváltozott útvonalra tekintettel tervezzenek <strong>több időt</strong> az utazásra!
+                A terelés időtartama: <strong>2026. április 30. 09:00 – május 2. 04:00</strong>.
+              </p>
             </div>
           </div>
         </div>
