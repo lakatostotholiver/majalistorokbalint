@@ -1,7 +1,7 @@
 const programItems = [
   { time: '10:00',         title: 'Rövid köszöntő, műsorismertető',               tag: 'Ünnepség',    highlight: false },
   { time: '10:05',         title: 'Lendvai Károly Férfikórus',                    tag: 'Fellépés',    highlight: false },
-  { time: '10:30',         title: 'Törökbálinti Cantabile Kórus',                 tag: 'Fellépés',    highlight: false },
+  { time: '10:30',         title: 'ECDS Lora Dance Crew',                         tag: 'Fellépés',    highlight: false },
   { time: '10:55',         title: 'Bushin Harcművészeti Egyesület',               tag: 'Bemutató',    highlight: false },
   { time: '11:10',         title: 'Panic Crew Hip Hop Tánciskola',                tag: 'Tánc',        highlight: false },
   { time: '11:25',         title: 'Törökbálinti Hagyományőrző Tánccsoport',       tag: 'Néptánc',     highlight: false },

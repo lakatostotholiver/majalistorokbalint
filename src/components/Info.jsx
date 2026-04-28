@@ -40,6 +40,20 @@ export default function Info() {
           Minden fontos tudnivaló a látogatáshoz – parkolástól a belépőig.
         </p>
 
+        <div className="parking-map-block animate-on-scroll">
+          <div className="parking-map-header">
+            <span className="parking-map-icon">🗺️</span>
+            <h3>Parkolási térkép</h3>
+          </div>
+          <a href="/images/terkep_04_21.jpg" target="_blank" rel="noreferrer" className="parking-map-link" aria-label="Parkolási térkép megnyitása teljes méretben">
+            <img
+              src="/images/terkep_04_21.jpg"
+              alt="Parkolási térkép"
+              className="parking-map-image"
+            />
+          </a>
+        </div>
+
         {/* Parkolás – külön kiemelve */}
         <div className="parking-block animate-on-scroll">
           <div className="parking-block-header">
